@@ -1,16 +1,30 @@
+html {font-size: 1.5rem}
+
+
 body {
-    background-color: rgb(241, 244, 239);
+    background-color: #f1f4efed;
 
   }
-  h1 { 
-    font-weight: bold;
-    color: 0B0B0B;
-  }
-  h2 { font-weight: bold;
+  h1 {
+    font-family: "PT Serif", serif;
+    font-size: 34px;
+text-shadow: 3px 3px 3px #ababab;
+}
+
+  h2 { 
     color: rgb(60, 140, 38);
+      font-family: "PT Serif", serif;
+      font-size: 28px;
   }
-  h3 { font-weight: bold;
-    font-size: medium;
-    color: 0B0B0B;
+
+  h3 {
+    font-family: "PT Serif", serif;
+    font-size: 28px;
+}
+p {font-family: "PT Serif", serif;
+  font-size: 1rem}
+
+ 
+   
     /* Thiese are the fonts I am using for my headings */
-    
+   
