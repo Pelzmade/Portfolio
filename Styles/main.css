@@ -38,21 +38,36 @@ p {font-family: "PT Serif", serif;
   nav ul li {
      
       background-color: black;
-      display: inline;
+      height: 20px;
+      width: 250px;
+      display: block;
+      border: 40px green;
       margin: 1em 0;
        /* same on all sides; */
       padding: 1em;
       padding-left: .50em;
-      border:1em#0f9b55;
       text-align: center;
   }
   nav ul li a {
       color: white;
       /* same on all sides; */
       padding: 1em;
-      border:1em#0f9b55;
       text-align: center;
       text-decoration: none;
   }
   
-  
+  .odd {
+
+    text-shadow: 3px 3px 3px #705806;
+    
+    }
+    .even {
+
+      text-shadow: 3px 3px 3px #3245ee;
+      
+      }
+      .neutral {
+
+        text-shadow: 3px 3px 3px #13b356;
+        
+        }
