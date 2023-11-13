@@ -22,9 +22,37 @@ text-shadow: 3px 3px 3px #ababab;
     font-size: 28px;
 }
 p {font-family: "PT Serif", serif;
-  font-size: 1rem}
+  font-size: .75rem}
+  
+  ul {font-family: "PT Serif", serif;
+    font-size: .75rem}
 
- 
+    figure {font-family: "PT Serif", serif;
+      font-size: .75rem}
    
     /* Thiese are the fonts I am using for my headings */
-   
+
+    nav ul {
+      padding-left: 0;
+  }
+  nav ul li {
+     
+      background-color: black;
+      display: inline;
+      margin: 1em 0;
+       /* same on all sides; */
+      padding: 1em;
+      padding-left: .50em;
+      border:1em#0f9b55;
+      text-align: center;
+  }
+  nav ul li a {
+      color: white;
+      /* same on all sides; */
+      padding: 1em;
+      border:1em#0f9b55;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  
