@@ -1,10 +1,16 @@
-html {font-size: 1.5rem;}
+
+html {
+  font-size: 1.5rem;
+  margin: 0;
+}
 
 
 body {
     background-color: #F9ECCC;
     text-align: center;
 align-items: center;
+margin: 0;
+
   }
 
 
@@ -21,7 +27,6 @@ padding: 5vh;
     color: rgb(60, 140, 38);
       font-family: "PT Serif", serif;
       font-size: 28px;
-     
   }
 
   h3 {
@@ -88,14 +93,16 @@ p {font-family: "PT Serif", serif;
         
         }
         #contact {
-          border-color: black;
-
-          border-style: solid;
-          
-          border-width: 3px;
-          
+          background-color: white;
     
           }
+
+          .details {
+            color: black;
+            font-family: "PT Serif", serif;
+            font-size: 28px
+          }
+
           ul {list-style-type: none;
             display: inline-block;
   align-items: center;}
@@ -105,7 +112,40 @@ p {font-family: "PT Serif", serif;
   margin-right: auto;
   text-align: center;
 }
+footer {
+  background-color: white;
+width: 100%;
+
+  }
+/* LinkedIn® In logo is from their branding guidelines found here: https://brand.linkedin.com/policies */
+ 
+  /* Three image containers (50% for two, etc) */
+.column {
+  float: left;
+  width: 100%;
+
+ 
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.row {
+  display: flex;
+
+
+}
+
+.column {
+  flex: 100%;
+
+}
 
 
 
-          /* This is where I added a link to my LinkedIn profile using a logo from their branding guidelines available at https://brand.linkedin.com/policies */
+          
