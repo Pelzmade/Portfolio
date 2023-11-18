@@ -1,6 +1,6 @@
 
 html {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -77,17 +77,17 @@ p {font-family: "PT Serif", serif;
   }
   
   
-  .odd {
+  .one {
 
     text-shadow: 3px 3px 3px #705806;
     
     }
-    .even {
+    .two {
 
       text-shadow: 3px 3px 3px #3245ee;
       
       }
-      .neutral {
+      .three {
 
         text-shadow: 3px 3px 3px #13b356;
         
@@ -107,6 +107,19 @@ p {font-family: "PT Serif", serif;
             display: inline-block;
   align-items: center;}
 
+
+.row {
+  display: flex;
+  align-items: center;
+justify-content: center; 
+column-gap: 20px;
+
+}
+
+  .column {
+    display: flex;
+  }
+
   .center
   {margin-left: auto;
   margin-right: auto;
@@ -117,34 +130,12 @@ footer {
 width: 100%;
 
   }
-/* LinkedIn® In logo is from their branding guidelines found here: https://brand.linkedin.com/policies */
+/* LinkedIn® In logo used is from their branding guidelines found here: https://brand.linkedin.com/policies */
  
-  /* Three image containers (50% for two, etc) */
-.column {
-  float: left;
-  width: 100%;
+
 
  
-}
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-
-}
-
-.row {
-  display: flex;
-
-
-}
-
-.column {
-  flex: 100%;
-
-}
 
 
 
