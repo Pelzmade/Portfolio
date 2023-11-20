@@ -134,11 +134,7 @@ width: 100%;
 /* The LinkedIn® In logo used is from their branding guidelines found here: https://brand.linkedin.com/policies */
  
 
-@media (max-width: 480px) {
-  .text {
-    font-size: 16px;
-  }
-}
+
  
 
 
