@@ -13,7 +13,7 @@ margin: 0;
 
   }
 
-
+ /* These are the fonts I am using for my headings */
 
   h1 {
     font-family: "PT Serif", serif;
@@ -47,7 +47,7 @@ p {font-family: "PT Serif", serif;
       font-size: .75rem;
 }
    
-    /* Thiese are the fonts I am using for my headings */
+    /* This is the format for my sections */
 
   button {   margin: 2vh 5vh;
    padding: 1vh;
@@ -76,7 +76,7 @@ p {font-family: "PT Serif", serif;
       text-decoration: none;
   }
   
-  
+   /* These are my interests with styling text */
   .one {
 
     text-shadow: 3px 3px 3px #705806;
@@ -130,7 +130,7 @@ footer {
 width: 100%;
 
   }
-/* LinkedIn® In logo used is from their branding guidelines found here: https://brand.linkedin.com/policies */
+/* The LinkedIn® In logo used is from their branding guidelines found here: https://brand.linkedin.com/policies */
  
 
 
