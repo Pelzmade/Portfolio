@@ -33,7 +33,7 @@
       position: relative;
       display: block;
       width: calc(100% + 1.3px);
-      height: 150px;
+      height: 50px;
   }
   
   .custom-shape-divider-bottom-1699970457 .shape-fill {
@@ -41,17 +41,18 @@
 
   }
   </style> 
-  
+ 
+
 </head>
 
 <body>
- 
+
 
   <div style="position: relative; background-color:  #BFD7B5; min-height: 75vh;">
     <header>   
       <h1>DENISE J. PELZMANN</h1>
     </header>
-      <img src="Images/logoonly.png" height=200 width=250 alt="butterfly graphic with the initials DJP in the middle"> 
+      <img src="Images/logoonly.png" height=150 width=200 alt="butterfly graphic with the initials DJP in the middle"> 
 
 <div class="custom-shape-divider-bottom-1699970457">
   <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -61,7 +62,18 @@
 </div>
 
 <h2>Welcome to my website!</h2>
-<button>Click below to learn more</button>
+
+
+<button onclick="Button()">Click me</button>
+
+<button id="Button2" onmouseover="changeText()" 
+onmouseleave="restoreText()">Hover</button>
+
+<button onclick="countClicks()">Btn Counter</button>
+
+<p id="txt-counter">Number: 1</p>
+
+
 
 <nav>
   <ul>
@@ -80,12 +92,27 @@
 
 <section id="interests">
 
+
 <h3>Some of my interests are:</h3>
 <ul>
   <li class="one">Coffee</li>
   <li class="two">Fitness</li>
   <li class="three">Animals</li> 
 </ul> 
+
+
+
+
+<h2>Loop:</h2>
+
+<p id="Numbers"></p>
+
+<ol>
+  <li class="number2">1</li>
+  <li class="number3">2</li>
+  <li class="number1">3</li>
+</ol> 
+
 
 <p>Also, two of my favourite places to visit in Alberta are Moraine Lake and Lake Louise.</p>
 
@@ -158,10 +185,21 @@
       </a>
       <br>
  
-  <small>&copy; Denise Pelzmann, 2023</small>
+
+ 
+  <small>&copy; Denise Pelzmann,
+  </small>
+
+  <p id="footer"></p>
 
 </footer>
 </section>
 
+
+<script defer src="js/main.js"></script>
+
+
 </body>
+
+
 </html>
