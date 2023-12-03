@@ -54,6 +54,7 @@ function changeColor(newColor) {
 
 
 
+
   /*Loop code*/
 
   for (var i = 0; i < 100; i++) {
@@ -61,5 +62,3 @@ function changeColor(newColor) {
   }
   
   
-
-
