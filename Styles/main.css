@@ -1,164 +1,168 @@
 
-html {
-  font-size: 2rem;
-  margin: 0 auto;
-}
-
-
-
-body {
-    background-color: #F9ECCC;
-    text-align: center;
-align-items: center;
-margin: 0 auto;
-max-width: 100%;
-
-
+  html {
+    font-size: 2rem;
+    margin: 0 auto;
   }
 
- /* These are the fonts I am using for my headings */
 
-  h1 {
-    font-family: "PT Serif", serif;
-    font-size: 40px;
-text-shadow: 3px 3px 3px #ababab;
-text-align: center;
-padding: 5vh;
-}
 
-  h2 { 
-    color: rgb(60, 140, 38);
+  body {
+      background-color: #F9ECCC;
+      text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+
+
+    }
+
+  /* These are the fonts I am using for my headings */
+
+    h1 {
+      font-family: "PT Serif", serif;
+      font-size: 40px;
+  text-shadow: 3px 3px 3px #ababab;
+  text-align: center;
+  padding: 5vh;
+  }
+
+    h2 { 
+      color: rgb(60, 140, 38);
+        font-family: "PT Serif", serif;
+        font-size: 28px;
+    }
+
+    h3 {
       font-family: "PT Serif", serif;
       font-size: 28px;
+      padding: 2vh;
   }
+  p {font-family: "PT Serif", serif;
+    font-size: .75rem;
+    padding: 2vh;}
 
-  h3 {
-    font-family: "PT Serif", serif;
-    font-size: 28px;
-    padding: 2vh;
-}
-p {font-family: "PT Serif", serif;
-  font-size: .75rem;
-  padding: 2vh;}
-
-
-  
-  ul {font-family: "PT Serif", serif;
-    font-size: .75rem}
 
     
-    figure {font-family: "PT Serif", serif;
-      font-size: .75rem;
-}
-   
-    /* This is the format for my sections */
+    ul {font-family: "PT Serif", serif;
+      font-size: .75rem}
 
-  button {   margin: 2vh 5vh;
-   padding: 1vh;
-  border-radius: 100px;
-  border: none;}
-
-
-
-  nav ul li {
-     
-      background-color: black;
-      height: 30px;
-      width: 250px;
-      display: block;
-      margin: 2vh 5vh;
-       /* same on all sides; */
-      padding: 1vh;
-     border-radius: 150px;
-     border: none;
-      text-align: center;
       
+      figure {font-family: "PT Serif", serif;
+        font-size: .75rem;
   }
-  nav ul li a {
-    color: white;
-      /* same on all sides; */
-      padding: 1em;
-      text-align: center;
-      text-decoration: none;
-  }
-
-  /* THESE ARE EVEN & ODD STYLES*/
-  .odd {
-
-    color: blue;
     
-    }
-    .even {
+  ul {
+    margin-bottom: 20px; 
+  }
 
-      color: red;
+      /* This is the format for my sections */
+
+    button {   margin: 2vh 5vh;
+    padding: 1vh;
+    border-radius: 100px;
+    border: none;}
+
+
+
+    nav ul li {
+      
+        background-color: black;
+        height: 30px;
+        width: 250px;
+        display: block;
+        margin: 2vh 5vh;
+        /* same on all sides; */
+        padding: 1vh;
+      border-radius: 150px;
+      border: none;
+        text-align: center;
+        
+    }
+    nav ul li a {
+      color: white;
+        /* same on all sides; */
+        padding: 1em;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /* THESE ARE EVEN & ODD STYLES*/
+    .odd {
+
+      color: blue;
       
       }
-  
+      .even {
 
-   /* These are my interests with styling text */
-  .one {
-
-    text-shadow: 3px 3px 3px #705806;
-    
-    }
-    .two {
-
-      text-shadow: 3px 3px 3px #3245ee;
-      
-      }
-      .three {
-
-        text-shadow: 3px 3px 3px #13b356;
+        color: red;
         
         }
-        #contact {
-          background-color: white;
     
+
+    /* These are my interests with styling text */
+    .one {
+
+      text-shadow: 3px 3px 3px #705806;
+      
+      }
+      .two {
+
+        text-shadow: 3px 3px 3px #3245ee;
+        
+        }
+        .three {
+
+          text-shadow: 3px 3px 3px #13b356;
+          
           }
+          #contact {
+            background-color: white;
+      
+            }
 
-          .details {
-            color: black;
-            font-family: "PT Serif", serif;
-            font-size: 28px
-          }
+            .details {
+              color: black;
+              font-family: "PT Serif", serif;
+              font-size: 28px
+            }
 
-          ul {list-style-type: none;
-            display: inline-block;
-  align-items: center;}
+            ul {list-style-type: none;
+              display: inline-block;
+    align-items: center;}
 
 
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-justify-content: center; 
-column-gap: 20px;
-
-}
-
-  .column {
+  .row {
     display: flex;
     flex-direction: row;
- 
+    align-items: center;
+  justify-content: center; 
+  column-gap: 20px;
+
   }
 
+    .column {
+      display: flex;
+      flex-direction: row;
   
-  .center
-{margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  max-width: 100%;
-}
-footer {
-  background-color: white;
-width: 100%;
+    }
 
+    
+    .center
+  {margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 100%;
   }
-/* The LinkedIn® In logo used is from their branding guidelines found here: https://brand.linkedin.com/policies */
- 
+  footer {
+    background-color: white;
+  width: 100%;
+
+    }
+  /* The LinkedIn® In logo used is from their branding guidelines found here: https://brand.linkedin.com/policies */
+  
 
 
 
 
 
-          
+            
