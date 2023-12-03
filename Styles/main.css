@@ -94,6 +94,9 @@ p {font-family: "PT Serif", serif;
       
       }
   
+ul {
+  margin-bottom: 10px; 
+}
 
    /* These are my interests with styling text */
   .one {
