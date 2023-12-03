@@ -52,5 +52,5 @@ function changeColor(newColor) {
  /*Loop code*/
 
 for  (var i = 0; i < 100; i++) {
-console.log("The square of " + i + Math.pow(i,2));
+console.log("The count of " + i + Math.pow(i,2));
   }
