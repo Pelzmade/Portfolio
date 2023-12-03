@@ -1,6 +1,7 @@
 
 
   /* Sanity check*/
+
 console.log("Hello World")
 
 portfolio.addEventListener ("click", (event) => {
@@ -8,6 +9,7 @@ portfolio.addEventListener ("click", (event) => {
 })
 
   /* Current year displayed as part of text*/
+
 const d = new Date().getFullYear()
 document.getElementById("footer").innerHTML = d;
 
@@ -25,6 +27,8 @@ document.getElementById('Button2').onmouseover = () => {
 document.getElementById('Button2').onmouseleave = () => {
     document.getElementById('Button2').innerText = 'Hover';
 };
+
+
 
 
  /*Button Counter added to Text Number: 1 with If Else code*/
@@ -49,8 +53,12 @@ function changeColor(newColor) {
   }
 
 
- /*Loop code*/
 
-for  (var i = 0; i < 100; i++) {
-console.log("The count of " + i + Math.pow(i,2));
+
+  /*Loop code*/
+
+  for (var i = 0; i < 100; i++) {
+    console.log("Numbers " + i);
   }
+  
+  
