@@ -87,12 +87,20 @@
     }
 
     /* THESE ARE EVEN & ODD STYLES*/
-    .odd {
+  .odd {
 
       color: blue;
       
       }
       .even {
+
+        color: red;
+        
+        }
+
+   /* These are my interests with styling text */
+  .one {
+
 
         color: red;
         
@@ -160,9 +168,3 @@
     }
   /* The LinkedIn® In logo used is from their branding guidelines found here: https://brand.linkedin.com/policies */
   
-
-
-
-
-
-            

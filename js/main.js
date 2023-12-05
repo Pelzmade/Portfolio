@@ -51,7 +51,6 @@ function changeColor(newColor) {
   }
 
 
-
 /*Loop*/
 var myList = document.getElementById("Number");
 
@@ -69,13 +68,4 @@ console.log("Numbers " + i);
      // append the <li> element to your ordered list
   // (your code here)
 
-    myList.appendChild(listItem);
-  }
-
-
-  
-  
-  
-  
-
-
+    myList.appendChild(listItem);}
