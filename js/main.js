@@ -29,8 +29,6 @@ document.getElementById('Button2').onmouseleave = () => {
 };
 
 
-
-
  /*Button Counter added to Text Number: 1 with If Else code*/
 
 var count = 1;
@@ -53,12 +51,21 @@ function changeColor(newColor) {
   }
 
 
+/*Loop*/
+var myList = document.getElementById("Number");
 
+for (var i = 1; i <=100; i++) {
+console.log("Numbers " + i);
 
-  /*Loop code*/
+ // create a new <li> element with the createElement() document method
 
-  for (var i = 0; i < 100; i++) {
-    console.log("Numbers " + i);
-  }
-  
-  
+    var listItem = document.createElement("li");
+
+// set the text content of the new <li> element
+
+    listItem.textContent = "Number" + i;
+
+     // append the <li> element to your ordered list
+  // (your code here)
+
+    myList.appendChild(listItem);}
