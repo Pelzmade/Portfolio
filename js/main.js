@@ -57,7 +57,7 @@ console.log("Number " + i);
 
 }
 
-let text = "even ";
+let text = ""; 
 
 for (let i = 0; i <=100; i++) {
   text += "Number " + i + "<br>";
