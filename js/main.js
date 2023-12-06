@@ -52,20 +52,15 @@ function changeColor(newColor) {
 
 
 /*Loop*/
-var myList = document.getElementById("Number");
-
 for (var i = 1; i <=100; i++) {
-console.log("Numbers " + i);
+console.log("Number " + i);
 
- // create a new <li> element with the createElement() document method
+}
 
-    var listItem = document.createElement("li");
+let text = "even ";
 
-// set the text content of the new <li> element
+for (let i = 0; i <=100; i++) {
+  text += "Number " + i + "<br>";
+}
 
-    listItem.textContent = "Number" + i;
-
-     // append the <li> element to your ordered list
-  // (your code here)
-
-    myList.appendChild(listItem);}
+document.getElementById("Number").innerHTML = text;
