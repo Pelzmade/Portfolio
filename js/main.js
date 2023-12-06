@@ -54,13 +54,13 @@ function changeColor(newColor) {
 /*Loop*/
 for (var i = 1; i <=100; i++) {
 console.log("Number " + i);
-
 }
-
-let text = ""; 
-
 for (let i = 0; i <=100; i++) {
-  text += "Number " + i + "<br>";
+ if (i % 2 == 0) {
+    document.getElementById("Number").innerHTML += i + " is even <br>";}
+    else {
+        document.getElementById("Number").innerHTML += i + " is odd <br>";}
+  
 }
 
-document.getElementById("Number").innerHTML = text;
+
