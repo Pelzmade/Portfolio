@@ -98,6 +98,17 @@
         
         }
 
+        .Number1 {
+
+          text: blue;
+          
+          }
+          .Number2 {
+    
+            color: red;
+            
+            }
+
    /* These are my interests with styling text */
   .one {
 
@@ -166,5 +177,11 @@
   width: 100%;
 
     }
+
+    .footer{
+      background:url(
+        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAABaADAAQAAAABAAAABQAAAAB/qhzxAAAAHUlEQVQIHWNgAIJ78vf+I9MYAjAFGBIYAlhVggQBBRIlE8jYzgIAAAAASUVORK5CYII=
+        ) repeat;
+      }
   /* The LinkedIn® In logo used is from their branding guidelines found here: https://brand.linkedin.com/policies */
   
